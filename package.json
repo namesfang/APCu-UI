@@ -1,8 +1,8 @@
 {
-	"name": "apc",
+	"name": "APCu-UI",
 	"version": "0.0.1",
 	"scripts": {
-		"dev": "vite dev",
+		"dev": "vite dev --open",
 		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
@@ -13,7 +13,7 @@
 	"devDependencies": {
 		"@fontsource/fira-mono": "^4.5.10",
 		"@neoconfetti/svelte": "^1.0.0",
-		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-cloudflare": "^2.3.3",
 		"@sveltejs/kit": "^1.20.4",
 		"@types/cookie": "^0.5.1",
 		"@typescript-eslint/eslint-plugin": "^6.0.0",
@@ -23,6 +23,7 @@
 		"eslint-plugin-svelte": "^2.30.0",
 		"prettier": "^2.8.0",
 		"prettier-plugin-svelte": "^2.10.1",
+		"sass": "^1.65.1",
 		"svelte": "^4.0.5",
 		"svelte-check": "^3.4.3",
 		"tslib": "^2.4.1",

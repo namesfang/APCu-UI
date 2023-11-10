@@ -1,0 +1,27 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #f1f1f1;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.app-root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  .svelte-ui-provider {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+}
